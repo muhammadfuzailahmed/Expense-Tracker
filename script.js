@@ -46,7 +46,7 @@ function addTask(data) {
     li.style.alignItems = "center";
     li.style.justifyContent = "space-between";
     let p = document.createElement('p');
-    p.textContent = `${data.name} - ${data.amount}`;
+    p.textContent = `${data.name} - $${data.amount}`;
     let btn = document.createElement('button');
     btn.textContent ='Delete';
     btn.style.padding = "8px 14px";
@@ -90,7 +90,7 @@ function updateTotal() {
     total.style.color = "#fff";
     total.style.marginTop = "20px";
     total.style.textAlign = "center"
-    total.innerHTML = `Total: ${calculateTotal()}`;
+    total.innerHTML = `Total: $${calculateTotal()}`;
 }
 
 function saveToLocal(data) {
