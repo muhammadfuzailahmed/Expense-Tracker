@@ -5,6 +5,10 @@ It allows you to add, delete, and track expenses while automatically calculating
 All data is saved in Local Storage, so your expenses remain even after refreshing or reopening the browser.
 
 
+## Live Demo
+
+🔗 (https://expense-tracker-sooty-six-89.vercel.app/)
+
 ## Features
 
 - Responsive Design – works on desktop & mobile
